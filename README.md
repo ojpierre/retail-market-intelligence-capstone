@@ -120,7 +120,7 @@ flowchart TD
 | **5. Apache Airflow** | Scheduled monthly and daily DAGs with retries, exponential backoff, dependency chains, and circuit-breaker failure recovery | Completed | [dags/retail_market_intelligence_dag.py](dags/retail_market_intelligence_dag.py) |
 | **6. Data Quality** | 8 automated assertions (completeness, sanity ranges, uniqueness, referential integrity), quarantine protocol, and audit ledger | Completed | [src/quality/engine.py](src/quality/engine.py), `data/quarantine/` |
 | **7. Deployment** | Multi-container Docker deployment (`docker-compose.yml`) orchestrating PostgreSQL, Kafka, Zookeeper, Airflow, and Streamlit with healthchecks | Completed | [docker/Dockerfile](docker/Dockerfile), [docker-compose.yml](docker-compose.yml) |
-| **8. Documentation & Defense** | Clean GitHub repository, comprehensive README, 10-slide presentation deck with speaking notes, and oral defense guide | Completed | [README.md](README.md), [docs/presentation_deck.md](docs/presentation_deck.md), [docs/defense_guide.md](docs/defense_guide.md) |
+| **8. Documentation & Defense** | Clean GitHub repository, comprehensive README, 10-slide presentation deck with speaking notes, and oral defense guide | Completed | [README.md](README.md), [docs/step_by_step_build_guide.md](docs/step_by_step_build_guide.md), [docs/presentation_deck.md](docs/presentation_deck.md), [docs/defense_guide.md](docs/defense_guide.md) |
 
 ---
 
@@ -349,5 +349,6 @@ Spins up PostgreSQL warehouse (`:5432`), Kafka broker (`:9092`), Zookeeper (`:21
 
 ## Technical Defense Preparation
 
+- **Step-by-Step Build Guide:** [docs/step_by_step_build_guide.md](docs/step_by_step_build_guide.md) (Comprehensive step-by-step walkthrough explaining what was built and why across all 11 implementation stages).
 - **Presentation Deck:** [docs/presentation_deck.md](docs/presentation_deck.md) (10 structured slides with presenter speaking notes).
 - **Oral Defense Guide:** [docs/defense_guide.md](docs/defense_guide.md) (Scripted Q&A covering architecture, Kafka streaming, Spark transformations, Star Schema, Airflow, and failure recovery).
