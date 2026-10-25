@@ -1,5 +1,6 @@
-﻿import sys
+import sys
 from pathlib import Path
+import json
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -157,22 +158,51 @@ with tab2:
         sel_county = st.selectbox("Select County:", counties)
     
     if sel_county != "All":
-        df_pi_filtered = df_pi[df_pi["county"] == sel_county]
+        df_pi_filtered = df_pi[df_pi["county"] == sel_county].copy()
     else:
-        df_pi_filtered = df_pi
+        df_pi_filtered = df_pi.copy()
+
+    df_pi_filtered["spread_magnitude"] = df_pi_filtered["spread_kes"].abs().clip(lower=2.0)
 
     fig_spread = px.scatter(
         df_pi_filtered,
         x="kamis_market_price",
         y="shelf_price",
         color="category",
-        size="spread_kes",
-        hover_data=["product_name", "county", "spread_kes", "comp_index"],
+        size="spread_magnitude",
+        size_max=22,
+        hover_name="product_name",
+        hover_data={
+            "product_name": False,
+            "county": True,
+            "shelf_price": ":.2f",
+            "kamis_market_price": ":.2f",
+            "spread_kes": ":.2f",
+            "comp_index": ":.2f",
+            "spread_magnitude": False,
+        },
         title=f"Shelf Price vs. KAMIS Market Benchmark (County: {sel_county})",
-        labels={"kamis_market_price": "KAMIS Retail Price (KES/kg or L)", "shelf_price": "Supermarket Price (KES)"},
+        labels={
+            "kamis_market_price": "KAMIS Retail Price (KES/kg or L)",
+            "shelf_price": "Supermarket Price (KES)",
+            "category": "Category",
+            "spread_kes": "Spread (KES)",
+            "comp_index": "Competitiveness Index (%)",
+        },
     )
+    if not df_pi_filtered.empty:
+        max_val = max(df_pi_filtered["kamis_market_price"].max(), df_pi_filtered["shelf_price"].max()) * 1.05
+        fig_spread.add_trace(
+            go.Scatter(
+                x=[0, max_val],
+                y=[0, max_val],
+                mode="lines",
+                name="KAMIS Parity (Shelf = Market)",
+                line=dict(color="gray", dash="dash"),
+            )
+        )
     st.plotly_chart(fig_spread, use_container_width=True)
-    st.dataframe(df_pi_filtered, use_container_width=True)
+    st.dataframe(df_pi_filtered.drop(columns=["spread_magnitude"]), use_container_width=True)
 
 with tab3:
     st.subheader("Nominal Revenue vs. Deflated Real Sales (Constant 2019 Prices)")
@@ -208,6 +238,7 @@ with tab3:
         legend=dict(x=0.01, y=0.99),
     )
     st.plotly_chart(fig_inf, use_container_width=True)
+    st.dataframe(df_inf, use_container_width=True)
 
 with tab4:
     st.subheader("Inventory Movements & Stockout Alert Monitoring")
@@ -216,7 +247,7 @@ with tab4:
             SELECT 
                 st.store_name, st.county, pr.product_name, pr.category,
                 inv.stock_on_hand, inv.reorder_threshold,
-                COUNT(CASE WHEN inv.is_below_reorder = TRUE THEN 1 END) AS stockout_count
+                COUNT(CASE WHEN inv.is_below_reorder = 1 OR inv.is_below_reorder = TRUE THEN 1 END) AS stockout_count
             FROM fact_inventory_snapshot inv
             JOIN dim_store st ON inv.store_key = st.store_key
             JOIN dim_product pr ON inv.product_key = pr.product_key
@@ -246,5 +277,4 @@ with tab5:
     with engine.connect() as conn:
         last_audit = conn.execute(text("SELECT details_json FROM data_quality_audit_log ORDER BY audit_id DESC LIMIT 1")).scalar()
         if last_audit:
-            import json
             st.json(json.loads(last_audit))
