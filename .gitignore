@@ -230,3 +230,6 @@ pgdata/
 .env
 .env.*
 !.env.example
+
+data/bronze/streaming/
+

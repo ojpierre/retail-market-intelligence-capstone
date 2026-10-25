@@ -115,3 +115,17 @@ if AIRFLOW_AVAILABLE:
     t_quality_gate = PythonOperator(task_id="data_quality_gate", python_callable=task_data_quality_gate, dag=dag)
 
     [t_ingest_kamis, t_ingest_knbs, t_ingest_operational] >> t_bronze >> t_silver >> t_gold >> t_warehouse >> t_quality_gate
+
+
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(name)s: %(message)s')
+    logger.info('Executing DAG tasks in standalone simulation mode...')
+    task_ingest_kamis()
+    task_ingest_knbs()
+    task_ingest_operational()
+    task_build_bronze()
+    task_build_silver()
+    task_build_gold()
+    task_load_warehouse()
+    task_data_quality_gate()
+    logger.info('DAG execution complete: all 8 tasks succeeded.')
