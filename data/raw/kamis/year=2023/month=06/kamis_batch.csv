@@ -1,0 +1,101 @@
+date,market_name,county,region,latitude,longitude,commodity,category,raw_unit,std_unit,wholesale_price_kes,retail_price_kes,currency,source,harvest_season
+2023-06-01,Marikiti,Nairobi,Nairobi,-1.2864,36.8172,White Maize,Cereals,90 KG bag,KG,4949.58,65.92,KES,KAMIS,False
+2023-06-01,Marikiti,Nairobi,Nairobi,-1.2864,36.8172,Rose Coco Beans,Pulses,90 KG bag,KG,9691.48,131.17,KES,KAMIS,False
+2023-06-01,Marikiti,Nairobi,Nairobi,-1.2864,36.8172,Irish Potatoes,Tubers,50 KG bag,KG,3305.9,83.34,KES,KAMIS,False
+2023-06-01,Marikiti,Nairobi,Nairobi,-1.2864,36.8172,Cooking Oil,Oils & Fats,20 L jerrican,L,6744.1,368.4,KES,KAMIS,False
+2023-06-01,Marikiti,Nairobi,Nairobi,-1.2864,36.8172,Imported Rice,Cereals,50 KG bag,KG,7606.34,182.49,KES,KAMIS,False
+2023-06-01,Marikiti,Nairobi,Nairobi,-1.2864,36.8172,Cow Milk,Dairy,50 L can,L,2387.36,69.57,KES,KAMIS,False
+2023-06-01,Marikiti,Nairobi,Nairobi,-1.2864,36.8172,Cabbage,Horticulture,100 KG bag,KG,2848.95,39.61,KES,KAMIS,False
+2023-06-01,Marikiti,Nairobi,Nairobi,-1.2864,36.8172,Tomatoes,Horticulture,64 KG crate,KG,4602.82,95.63,KES,KAMIS,False
+2023-06-01,Marikiti,Nairobi,Nairobi,-1.2864,36.8172,Red Onions,Horticulture,50 KG net,KG,4345.39,112.85,KES,KAMIS,False
+2023-06-01,Marikiti,Nairobi,Nairobi,-1.2864,36.8172,Wheat Flour,Cereals,24 KG bale,KG,3885.73,194.07,KES,KAMIS,False
+2023-06-01,Gikomba,Nairobi,Nairobi,-1.2833,36.8333,White Maize,Cereals,90 KG bag,KG,5008.96,67.68,KES,KAMIS,False
+2023-06-01,Gikomba,Nairobi,Nairobi,-1.2833,36.8333,Rose Coco Beans,Pulses,90 KG bag,KG,9934.16,131.11,KES,KAMIS,False
+2023-06-01,Gikomba,Nairobi,Nairobi,-1.2833,36.8333,Irish Potatoes,Tubers,50 KG bag,KG,3096.56,81.89,KES,KAMIS,False
+2023-06-01,Gikomba,Nairobi,Nairobi,-1.2833,36.8333,Cooking Oil,Oils & Fats,20 L jerrican,L,6178.79,372.22,KES,KAMIS,False
+2023-06-01,Gikomba,Nairobi,Nairobi,-1.2833,36.8333,Imported Rice,Cereals,50 KG bag,KG,7436.57,185.5,KES,KAMIS,False
+2023-06-01,Gikomba,Nairobi,Nairobi,-1.2833,36.8333,Cow Milk,Dairy,50 L can,L,2567.53,67.49,KES,KAMIS,False
+2023-06-01,Gikomba,Nairobi,Nairobi,-1.2833,36.8333,Cabbage,Horticulture,100 KG bag,KG,2848.98,41.82,KES,KAMIS,False
+2023-06-01,Gikomba,Nairobi,Nairobi,-1.2833,36.8333,Tomatoes,Horticulture,64 KG crate,KG,4676.54,98.13,KES,KAMIS,False
+2023-06-01,Gikomba,Nairobi,Nairobi,-1.2833,36.8333,Red Onions,Horticulture,50 KG net,KG,4466.95,112.05,KES,KAMIS,False
+2023-06-01,Gikomba,Nairobi,Nairobi,-1.2833,36.8333,Wheat Flour,Cereals,24 KG bale,KG,4020.28,194.34,KES,KAMIS,False
+2023-06-01,Kongowea,Mombasa,Coast,-4.0435,39.6682,White Maize,Cereals,90 KG bag,KG,5105.36,72.91,KES,KAMIS,False
+2023-06-01,Kongowea,Mombasa,Coast,-4.0435,39.6682,Rose Coco Beans,Pulses,90 KG bag,KG,10620.31,137.22,KES,KAMIS,False
+2023-06-01,Kongowea,Mombasa,Coast,-4.0435,39.6682,Irish Potatoes,Tubers,50 KG bag,KG,3423.8,85.72,KES,KAMIS,False
+2023-06-01,Kongowea,Mombasa,Coast,-4.0435,39.6682,Cooking Oil,Oils & Fats,20 L jerrican,L,6894.84,399.54,KES,KAMIS,False
+2023-06-01,Kongowea,Mombasa,Coast,-4.0435,39.6682,Imported Rice,Cereals,50 KG bag,KG,7657.84,193.72,KES,KAMIS,False
+2023-06-01,Kongowea,Mombasa,Coast,-4.0435,39.6682,Cow Milk,Dairy,50 L can,L,2530.05,70.81,KES,KAMIS,False
+2023-06-01,Kongowea,Mombasa,Coast,-4.0435,39.6682,Cabbage,Horticulture,100 KG bag,KG,3076.03,46.48,KES,KAMIS,False
+2023-06-01,Kongowea,Mombasa,Coast,-4.0435,39.6682,Tomatoes,Horticulture,64 KG crate,KG,4828.79,107.85,KES,KAMIS,False
+2023-06-01,Kongowea,Mombasa,Coast,-4.0435,39.6682,Red Onions,Horticulture,50 KG net,KG,4619.59,121.69,KES,KAMIS,False
+2023-06-01,Kongowea,Mombasa,Coast,-4.0435,39.6682,Wheat Flour,Cereals,24 KG bale,KG,4175.7,204.82,KES,KAMIS,False
+2023-06-01,Kibuye,Kisumu,Nyanza,-0.1022,34.7617,White Maize,Cereals,90 KG bag,KG,4836.83,68.19,KES,KAMIS,False
+2023-06-01,Kibuye,Kisumu,Nyanza,-0.1022,34.7617,Rose Coco Beans,Pulses,90 KG bag,KG,9485.53,130.12,KES,KAMIS,False
+2023-06-01,Kibuye,Kisumu,Nyanza,-0.1022,34.7617,Irish Potatoes,Tubers,50 KG bag,KG,3176.87,80.87,KES,KAMIS,False
+2023-06-01,Kibuye,Kisumu,Nyanza,-0.1022,34.7617,Cooking Oil,Oils & Fats,20 L jerrican,L,6270.62,368.59,KES,KAMIS,False
+2023-06-01,Kibuye,Kisumu,Nyanza,-0.1022,34.7617,Imported Rice,Cereals,50 KG bag,KG,7604.85,176.82,KES,KAMIS,False
+2023-06-01,Kibuye,Kisumu,Nyanza,-0.1022,34.7617,Cow Milk,Dairy,50 L can,L,2415.27,63.97,KES,KAMIS,False
+2023-06-01,Kibuye,Kisumu,Nyanza,-0.1022,34.7617,Cabbage,Horticulture,100 KG bag,KG,2815.05,38.88,KES,KAMIS,False
+2023-06-01,Kibuye,Kisumu,Nyanza,-0.1022,34.7617,Tomatoes,Horticulture,64 KG crate,KG,4529.23,96.72,KES,KAMIS,False
+2023-06-01,Kibuye,Kisumu,Nyanza,-0.1022,34.7617,Red Onions,Horticulture,50 KG net,KG,4420.07,119.18,KES,KAMIS,False
+2023-06-01,Kibuye,Kisumu,Nyanza,-0.1022,34.7617,Wheat Flour,Cereals,24 KG bale,KG,3779.2,194.0,KES,KAMIS,False
+2023-06-01,Wakilishi,Nakuru,Rift Valley,-0.3031,36.08,White Maize,Cereals,90 KG bag,KG,4694.98,62.88,KES,KAMIS,False
+2023-06-01,Wakilishi,Nakuru,Rift Valley,-0.3031,36.08,Rose Coco Beans,Pulses,90 KG bag,KG,9344.41,121.57,KES,KAMIS,False
+2023-06-01,Wakilishi,Nakuru,Rift Valley,-0.3031,36.08,Irish Potatoes,Tubers,50 KG bag,KG,3117.55,76.89,KES,KAMIS,False
+2023-06-01,Wakilishi,Nakuru,Rift Valley,-0.3031,36.08,Cooking Oil,Oils & Fats,20 L jerrican,L,5953.87,336.08,KES,KAMIS,False
+2023-06-01,Wakilishi,Nakuru,Rift Valley,-0.3031,36.08,Imported Rice,Cereals,50 KG bag,KG,7128.36,168.75,KES,KAMIS,False
+2023-06-01,Wakilishi,Nakuru,Rift Valley,-0.3031,36.08,Cow Milk,Dairy,50 L can,L,2288.77,63.13,KES,KAMIS,False
+2023-06-01,Wakilishi,Nakuru,Rift Valley,-0.3031,36.08,Cabbage,Horticulture,100 KG bag,KG,2783.7,39.02,KES,KAMIS,False
+2023-06-01,Wakilishi,Nakuru,Rift Valley,-0.3031,36.08,Tomatoes,Horticulture,64 KG crate,KG,4378.78,95.07,KES,KAMIS,False
+2023-06-01,Wakilishi,Nakuru,Rift Valley,-0.3031,36.08,Red Onions,Horticulture,50 KG net,KG,4271.5,108.13,KES,KAMIS,False
+2023-06-01,Wakilishi,Nakuru,Rift Valley,-0.3031,36.08,Wheat Flour,Cereals,24 KG bale,KG,3797.66,185.22,KES,KAMIS,False
+2023-06-01,Eldoret Main,Uasin Gishu,Rift Valley,0.5143,35.2698,White Maize,Cereals,90 KG bag,KG,4818.91,64.09,KES,KAMIS,False
+2023-06-01,Eldoret Main,Uasin Gishu,Rift Valley,0.5143,35.2698,Rose Coco Beans,Pulses,90 KG bag,KG,9390.28,122.95,KES,KAMIS,False
+2023-06-01,Eldoret Main,Uasin Gishu,Rift Valley,0.5143,35.2698,Irish Potatoes,Tubers,50 KG bag,KG,3004.97,79.04,KES,KAMIS,False
+2023-06-01,Eldoret Main,Uasin Gishu,Rift Valley,0.5143,35.2698,Cooking Oil,Oils & Fats,20 L jerrican,L,5961.76,342.62,KES,KAMIS,False
+2023-06-01,Eldoret Main,Uasin Gishu,Rift Valley,0.5143,35.2698,Imported Rice,Cereals,50 KG bag,KG,7264.75,173.5,KES,KAMIS,False
+2023-06-01,Eldoret Main,Uasin Gishu,Rift Valley,0.5143,35.2698,Cow Milk,Dairy,50 L can,L,2434.44,62.69,KES,KAMIS,False
+2023-06-01,Eldoret Main,Uasin Gishu,Rift Valley,0.5143,35.2698,Cabbage,Horticulture,100 KG bag,KG,2624.87,38.61,KES,KAMIS,False
+2023-06-01,Eldoret Main,Uasin Gishu,Rift Valley,0.5143,35.2698,Tomatoes,Horticulture,64 KG crate,KG,4480.36,92.43,KES,KAMIS,False
+2023-06-01,Eldoret Main,Uasin Gishu,Rift Valley,0.5143,35.2698,Red Onions,Horticulture,50 KG net,KG,4216.99,105.85,KES,KAMIS,False
+2023-06-01,Eldoret Main,Uasin Gishu,Rift Valley,0.5143,35.2698,Wheat Flour,Cereals,24 KG bale,KG,3728.84,175.2,KES,KAMIS,False
+2023-06-01,Nyeri Open Air,Nyeri,Central,-0.4201,36.9476,White Maize,Cereals,90 KG bag,KG,4824.37,64.46,KES,KAMIS,False
+2023-06-01,Nyeri Open Air,Nyeri,Central,-0.4201,36.9476,Rose Coco Beans,Pulses,90 KG bag,KG,9209.04,123.23,KES,KAMIS,False
+2023-06-01,Nyeri Open Air,Nyeri,Central,-0.4201,36.9476,Irish Potatoes,Tubers,50 KG bag,KG,3155.84,78.8,KES,KAMIS,False
+2023-06-01,Nyeri Open Air,Nyeri,Central,-0.4201,36.9476,Cooking Oil,Oils & Fats,20 L jerrican,L,6684.02,356.13,KES,KAMIS,False
+2023-06-01,Nyeri Open Air,Nyeri,Central,-0.4201,36.9476,Imported Rice,Cereals,50 KG bag,KG,7087.85,164.44,KES,KAMIS,False
+2023-06-01,Nyeri Open Air,Nyeri,Central,-0.4201,36.9476,Cow Milk,Dairy,50 L can,L,2316.18,64.04,KES,KAMIS,False
+2023-06-01,Nyeri Open Air,Nyeri,Central,-0.4201,36.9476,Cabbage,Horticulture,100 KG bag,KG,2719.57,41.04,KES,KAMIS,False
+2023-06-01,Nyeri Open Air,Nyeri,Central,-0.4201,36.9476,Tomatoes,Horticulture,64 KG crate,KG,4539.16,97.24,KES,KAMIS,False
+2023-06-01,Nyeri Open Air,Nyeri,Central,-0.4201,36.9476,Red Onions,Horticulture,50 KG net,KG,4172.77,109.19,KES,KAMIS,False
+2023-06-01,Nyeri Open Air,Nyeri,Central,-0.4201,36.9476,Wheat Flour,Cereals,24 KG bale,KG,3758.35,183.48,KES,KAMIS,False
+2023-06-01,Garissa Central,Garissa,North Eastern,-0.4532,39.646,White Maize,Cereals,90 KG bag,KG,5996.19,72.74,KES,KAMIS,False
+2023-06-01,Garissa Central,Garissa,North Eastern,-0.4532,39.646,Rose Coco Beans,Pulses,90 KG bag,KG,10607.87,146.48,KES,KAMIS,False
+2023-06-01,Garissa Central,Garissa,North Eastern,-0.4532,39.646,Irish Potatoes,Tubers,50 KG bag,KG,3803.1,96.68,KES,KAMIS,False
+2023-06-01,Garissa Central,Garissa,North Eastern,-0.4532,39.646,Cooking Oil,Oils & Fats,20 L jerrican,L,7710.78,423.55,KES,KAMIS,False
+2023-06-01,Garissa Central,Garissa,North Eastern,-0.4532,39.646,Imported Rice,Cereals,50 KG bag,KG,8814.72,213.25,KES,KAMIS,False
+2023-06-01,Garissa Central,Garissa,North Eastern,-0.4532,39.646,Cow Milk,Dairy,50 L can,L,2866.82,79.08,KES,KAMIS,False
+2023-06-01,Garissa Central,Garissa,North Eastern,-0.4532,39.646,Cabbage,Horticulture,100 KG bag,KG,3353.47,46.85,KES,KAMIS,False
+2023-06-01,Garissa Central,Garissa,North Eastern,-0.4532,39.646,Tomatoes,Horticulture,64 KG crate,KG,5578.97,113.17,KES,KAMIS,False
+2023-06-01,Garissa Central,Garissa,North Eastern,-0.4532,39.646,Red Onions,Horticulture,50 KG net,KG,4989.59,135.49,KES,KAMIS,False
+2023-06-01,Garissa Central,Garissa,North Eastern,-0.4532,39.646,Wheat Flour,Cereals,24 KG bale,KG,4182.3,211.98,KES,KAMIS,False
+2023-06-01,Machakos Town,Machakos,Eastern,-1.5177,37.2634,White Maize,Cereals,90 KG bag,KG,4877.46,67.87,KES,KAMIS,False
+2023-06-01,Machakos Town,Machakos,Eastern,-1.5177,37.2634,Rose Coco Beans,Pulses,90 KG bag,KG,9933.31,126.74,KES,KAMIS,False
+2023-06-01,Machakos Town,Machakos,Eastern,-1.5177,37.2634,Irish Potatoes,Tubers,50 KG bag,KG,3272.06,82.48,KES,KAMIS,False
+2023-06-01,Machakos Town,Machakos,Eastern,-1.5177,37.2634,Cooking Oil,Oils & Fats,20 L jerrican,L,7240.57,396.4,KES,KAMIS,False
+2023-06-01,Machakos Town,Machakos,Eastern,-1.5177,37.2634,Imported Rice,Cereals,50 KG bag,KG,7492.64,182.71,KES,KAMIS,False
+2023-06-01,Machakos Town,Machakos,Eastern,-1.5177,37.2634,Cow Milk,Dairy,50 L can,L,2441.6,65.22,KES,KAMIS,False
+2023-06-01,Machakos Town,Machakos,Eastern,-1.5177,37.2634,Cabbage,Horticulture,100 KG bag,KG,2939.9,41.1,KES,KAMIS,False
+2023-06-01,Machakos Town,Machakos,Eastern,-1.5177,37.2634,Tomatoes,Horticulture,64 KG crate,KG,4834.5,96.09,KES,KAMIS,False
+2023-06-01,Machakos Town,Machakos,Eastern,-1.5177,37.2634,Red Onions,Horticulture,50 KG net,KG,4324.21,116.33,KES,KAMIS,False
+2023-06-01,Machakos Town,Machakos,Eastern,-1.5177,37.2634,Wheat Flour,Cereals,24 KG bale,KG,4047.9,196.96,KES,KAMIS,False
+2023-06-01,Meru Central,Meru,Eastern,0.0515,37.6499,White Maize,Cereals,90 KG bag,KG,4857.21,69.95,KES,KAMIS,False
+2023-06-01,Meru Central,Meru,Eastern,0.0515,37.6499,Rose Coco Beans,Pulses,90 KG bag,KG,9769.47,133.79,KES,KAMIS,False
+2023-06-01,Meru Central,Meru,Eastern,0.0515,37.6499,Irish Potatoes,Tubers,50 KG bag,KG,3370.64,81.39,KES,KAMIS,False
+2023-06-01,Meru Central,Meru,Eastern,0.0515,37.6499,Cooking Oil,Oils & Fats,20 L jerrican,L,6679.46,382.78,KES,KAMIS,False
+2023-06-01,Meru Central,Meru,Eastern,0.0515,37.6499,Imported Rice,Cereals,50 KG bag,KG,7725.86,183.74,KES,KAMIS,False
+2023-06-01,Meru Central,Meru,Eastern,0.0515,37.6499,Cow Milk,Dairy,50 L can,L,2644.99,70.21,KES,KAMIS,False
+2023-06-01,Meru Central,Meru,Eastern,0.0515,37.6499,Cabbage,Horticulture,100 KG bag,KG,2927.53,42.94,KES,KAMIS,False
+2023-06-01,Meru Central,Meru,Eastern,0.0515,37.6499,Tomatoes,Horticulture,64 KG crate,KG,5128.02,105.0,KES,KAMIS,False
+2023-06-01,Meru Central,Meru,Eastern,0.0515,37.6499,Red Onions,Horticulture,50 KG net,KG,4262.34,113.22,KES,KAMIS,False
+2023-06-01,Meru Central,Meru,Eastern,0.0515,37.6499,Wheat Flour,Cereals,24 KG bale,KG,4182.27,189.77,KES,KAMIS,False

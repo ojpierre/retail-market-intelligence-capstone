@@ -1,0 +1,26 @@
+product_id,sku,name,category,unit_size,std_unit,unit_factor,cost,rrp,kamis_comm,supplier_id
+PRD-001,SKU-MZ-001,Jogoo Maize Flour 2kg,Flour & Grains,2 KG,KG,2.0,170.0,205.0,White Maize,SUP-01
+PRD-002,SKU-MZ-002,Pembe Maize Flour 2kg,Flour & Grains,2 KG,KG,2.0,168.0,200.0,White Maize,SUP-01
+PRD-003,SKU-MZ-003,Hostess Premium Maize Flour 2kg,Flour & Grains,2 KG,KG,2.0,210.0,255.0,White Maize,SUP-01
+PRD-004,SKU-WF-001,Ajab Home Baking Wheat Flour 2kg,Flour & Grains,2 KG,KG,2.0,175.0,215.0,Wheat Flour,SUP-17
+PRD-005,SKU-RC-001,Daawat Aromatic Rice 2kg,Rice,2 KG,KG,2.0,380.0,460.0,Imported Rice,SUP-10
+PRD-006,SKU-RC-002,Mwea Pishori Pure Rice 2kg,Rice,2 KG,KG,2.0,410.0,510.0,Imported Rice,SUP-10
+PRD-007,SKU-BN-001,Pearl Rose Coco Beans 1kg,Pulses,1 KG,KG,1.0,140.0,175.0,Rose Coco Beans,SUP-08
+PRD-008,SKU-BN-002,Pearl Yellow Beans 1kg,Pulses,1 KG,KG,1.0,155.0,195.0,Rose Coco Beans,SUP-08
+PRD-009,SKU-PT-001,Fresh Irish Potatoes Net Bag 2kg,Tubers,2 KG,KG,2.0,120.0,160.0,Irish Potatoes,SUP-09
+PRD-010,SKU-OL-001,Elianto Pure Corn Oil 1L,Oils & Fats,1 L,L,1.0,370.0,435.0,Cooking Oil,SUP-02
+PRD-011,SKU-OL-002,Golden Fry Cooking Oil 2L,Oils & Fats,2 L,L,2.0,590.0,710.0,Cooking Oil,SUP-02
+PRD-012,SKU-OL-003,Rina Vegetable Oil 1L,Oils & Fats,1 L,L,1.0,310.0,365.0,Cooking Oil,SUP-03
+PRD-013,SKU-OL-004,Kasuku Cooking Fat 1kg,Oils & Fats,1 KG,KG,1.0,290.0,345.0,Cooking Oil,SUP-03
+PRD-014,SKU-MK-001,Brookside Fresh Milk 500ml,Dairy,500 ML,L,0.5,50.0,65.0,Cow Milk,SUP-04
+PRD-015,SKU-MK-002,KCC Homogenized Fresh Milk 500ml,Dairy,500 ML,L,0.5,48.0,60.0,Cow Milk,SUP-06
+PRD-016,SKU-MK-003,Ilara Long Life Milk 500ml,Dairy,500 ML,L,0.5,52.0,65.0,Cow Milk,SUP-04
+PRD-017,SKU-BD-001,Broadways Premium White Bread 400g,Bakery,400 G,KG,0.4,55.0,70.0,,SUP-05
+PRD-018,SKU-BD-002,Festive White Sliced Bread 400g,Bakery,400 G,KG,0.4,53.0,65.0,,SUP-05
+PRD-019,SKU-VG-001,Local Cabbage Head Medium,Fresh Produce,1 PC,KG,1.5,45.0,65.0,Cabbage,SUP-13
+PRD-020,SKU-VG-002,Fresh Salad Tomatoes 1kg Punnet,Fresh Produce,1 KG,KG,1.0,85.0,120.0,Tomatoes,SUP-13
+PRD-021,SKU-VG-003,Red Dry Onions 1kg Mesh,Fresh Produce,1 KG,KG,1.0,105.0,140.0,Red Onions,SUP-13
+PRD-022,SKU-SG-001,Mumias White Sugar 1kg Pack,Sugar & Sweeteners,1 KG,KG,1.0,155.0,185.0,,SUP-11
+PRD-023,SKU-SL-001,Kensalt Iodised Table Salt 1kg,Pantry Essentials,1 KG,KG,1.0,32.0,45.0,,SUP-12
+PRD-024,SKU-DT-001,Omo Multi-Active Washing Powder 1kg,Household & Laundry,1 KG,KG,1.0,310.0,385.0,,SUP-14
+PRD-025,SKU-DT-002,Sunlight Lemon Dishwashing Liquid 750ml,Household & Laundry,750 ML,L,0.75,180.0,235.0,,SUP-14

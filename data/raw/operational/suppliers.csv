@@ -1,0 +1,21 @@
+supplier_id,supplier_name,category,lead_time_days,rating
+SUP-01,Unga Farm Care Ltd,Flour & Milling,2,4.8
+SUP-02,BIDCO Africa Ltd,Oils & Detergents,3,4.9
+SUP-03,Kapa Oil Refineries,Oils & Baking,3,4.7
+SUP-04,Brookside Dairy Ltd,Dairy Products,1,4.9
+SUP-05,Broadway Bakery Ltd,Bakery,1,4.8
+SUP-06,New KCC Limited,Dairy Products,2,4.6
+SUP-07,Pwani Oil Products,Oils & Personal Care,4,4.5
+SUP-08,Cereal Growers Eldoret,Grains & Pulses,4,4.4
+SUP-09,Kinangop Potato Farmers Co-op,Tubers,2,4.6
+SUP-10,Mwea Rice Growers SACCO,Rice,3,4.7
+SUP-11,Mumias Sugar Distributors,Sugar,5,4.2
+SUP-12,Kensalt Salt Refineries,Salt & Condiments,3,4.8
+SUP-13,Naivasha Fresh Veg Aggregators,Vegetables,1,4.7
+SUP-14,Unilever Kenya Ltd,Home & Personal Care,3,4.9
+SUP-15,Colgate-Palmolive East Africa,Personal Care,4,4.8
+SUP-16,Kenya Tea Packers (KETEPA),Beverages,2,4.9
+SUP-17,Capwell Industries Ltd,Flour & Porridge,3,4.7
+SUP-18,Farmers Choice Ltd,Processed Meats,1,4.8
+SUP-19,Crown Beverages Ltd,Beverages,2,4.5
+SUP-20,Highlands Drinks Ltd,Beverages & Water,2,4.6

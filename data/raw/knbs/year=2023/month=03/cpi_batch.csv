@@ -1,0 +1,2 @@
+date,year,month,cpi_overall,cpi_food,cpi_housing_fuel,inflation_rate_yoy,food_inflation_yoy,base_year,source
+2023-03-01,2023,3,130.65,151.3,123.1,9.18,13.41,2019,KNBS

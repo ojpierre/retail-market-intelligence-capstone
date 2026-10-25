@@ -1,0 +1,16 @@
+store_id,store_name,county,region,format,sqm,lat,lon
+STR-001,Tuzo Westlands Mall,Nairobi,Nairobi,Hypermarket,3500,-1.2675,36.8115
+STR-002,Tuzo Nairobi CBD Central,Nairobi,Nairobi,Supermarket,1800,-1.2841,36.8236
+STR-003,Tuzo Kasarani Hub,Nairobi,Nairobi,Supermarket,2200,-1.2217,36.9014
+STR-004,Tuzo Nyali Beachwalk,Mombasa,Coast,Hypermarket,3200,-4.0253,39.7139
+STR-005,Tuzo Mombasa Town,Mombasa,Coast,Supermarket,1600,-4.0547,39.6636
+STR-006,Tuzo Kisumu Mega,Kisumu,Nyanza,Supermarket,2400,-0.1017,34.7556
+STR-007,Tuzo Nakuru Midtown,Nakuru,Rift Valley,Supermarket,2000,-0.2833,36.0667
+STR-008,Tuzo Eldoret Rupa Mall,Uasin Gishu,Rift Valley,Hypermarket,3000,0.5204,35.2698
+STR-009,Tuzo Nyeri Central,Nyeri,Central,Express,950,-0.4201,36.9476
+STR-010,Tuzo Thika Makongeni,Kiambu,Central,Supermarket,1750,-1.0333,37.0694
+STR-011,Tuzo Machakos Plaza,Machakos,Eastern,Supermarket,1500,-1.5177,37.2634
+STR-012,Tuzo Meru Town Center,Meru,Eastern,Express,1100,0.0515,37.6499
+STR-013,Tuzo Naivasha Junction,Nakuru,Rift Valley,Supermarket,1650,-0.7172,36.431
+STR-014,Tuzo Kitale Commercial,Trans Nzoia,Rift Valley,Supermarket,1800,1.0167,35.0
+STR-015,Tuzo Garissa Oasis,Garissa,North Eastern,Express,900,-0.4532,39.646
