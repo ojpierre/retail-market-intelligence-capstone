@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local databases, virtual environments and caches
+*.db
+*.sqlite
+*.sqlite3
+venv/
+.venv/
+.pytest_cache/
+pgdata/
+.env
+.env.*
+!.env.example
